@@ -41,7 +41,7 @@ public class RemoteImageService implements ImageService {
         s3 = AmazonS3ClientBuilder
                 .standard()
                 .withCredentials(new AWSStaticCredentialsProvider(credentials))
-                .withRegion(region)
+                .withRegion(Regions.EU_WEST_1)
                 .build();
     }
 

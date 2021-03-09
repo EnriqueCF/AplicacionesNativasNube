@@ -13,8 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
-@Service("storageService")
+@Service
 @Profile("dev")
 public class LocalImageService implements ImageService {
 

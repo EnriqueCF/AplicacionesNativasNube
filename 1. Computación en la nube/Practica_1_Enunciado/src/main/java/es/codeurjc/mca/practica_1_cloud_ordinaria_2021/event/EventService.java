@@ -1,5 +1,6 @@
 package es.codeurjc.mca.practica_1_cloud_ordinaria_2021.event;
 
+import java.io.IOException;
 import java.util.Collection;
 import java.util.Optional;
 
@@ -45,7 +46,7 @@ public class EventService {
         return userService.getIfIAdmin() || event.getCreator().getId() == userService.getMe().getId();
     }
 
-    public Event createEvent(EventDto eventDto) {
+    public Event createEvent(EventDto eventDto) throws IOException {
 
         Event event = modelMapper.map(eventDto, Event.class);
 

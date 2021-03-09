@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>es.codeurjc.mca.cloud.prac_1.ordinaria</groupId>
-	<artifactId>practica_1_cloud_ordinaria_2021</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>enrique.casas.fernandez</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>Práctica 1 Cloud - Convocatoria Extraordinaria</name>
 	<description>Demo project for Spring Boot</description>
 
