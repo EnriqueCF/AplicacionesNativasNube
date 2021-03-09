@@ -30,8 +30,8 @@ public class RemoteImageService implements ImageService {
     static {
         //put your accesskey and secretkey here
         credentials = new BasicAWSCredentials(
-                "AKIA3AJAU3A7RMA3DB77",
-                "7CDLxx/9ruYOK0uFbou97B/226Gv8R2xmeLkoFfQ"
+                "",
+                ""
         );
     }
     public static AmazonS3 s3;
